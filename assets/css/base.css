@@ -1,0 +1,28 @@
+/* ============================================================
+   BASE.CSS — Fondation du module carte
+   Variables de charte, reset, typographie.
+   (Les styles de navigation du site d'origine ont été retirés :
+    ce fichier ne sert plus qu'à la carte autonome.)
+   ============================================================ */
+
+/* ----- Variables de la charte PauseAI -----
+   Définies une fois ici, réutilisées par map.css. */
+:root {
+  --orange: #f7931d;
+  --orange-bright: #ffa94d;
+  --orange-dim: #c46a12;
+  --bg: #050608;          /* fond général : presque noir, très légèrement bleuté */
+  --text: #f5f5f5;
+  --text-dim: #888;
+}
+
+/* ----- Reset minimal ----- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
